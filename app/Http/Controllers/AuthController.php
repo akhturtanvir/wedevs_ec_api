@@ -49,19 +49,6 @@ class AuthController extends Controller
         return $this->login(request());
     }
 
-
-    
-    // public function register(Request $request)
-    // {
-    //     $input = $request->all();
-
-    //     dd($input);
-        
-    //     $response = User::create($input);
-
-    //     return response()->json($response);
-    // }
-
     /**
      * Get the authenticated User.
      *
